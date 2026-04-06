@@ -22,7 +22,7 @@ def evidence_view(screen):
 
     # määritetään tehtävän vaihtoehdot ja kysymykset sen mukaan, mitä vastattiin aikaisemmassa tehtävässä
     if valittu == "2k+1":
-      choose_proof_method = new_combobox(frame, textfields.osoitusvaihtoehdot)
+      choose_proof_method = new_combobox(frame, list(textfields.osoituspalautteet.keys()))
       osoitusvastaus = textfields.osoitusvastaus
       osoituspalautteet = textfields.osoituspalautteet
     else:

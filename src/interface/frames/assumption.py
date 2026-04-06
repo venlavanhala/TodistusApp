@@ -26,7 +26,7 @@ def assumption_view(screen):
     frame = new_frame(screen)
 
     # monivalintakysymys
-    choose_assumption = new_combobox(frame, textfields.oletusvaihtoehdot)
+    choose_assumption = new_combobox(frame, list(textfields.oletukset.keys()))
 
     # palaute-teksti
     feedback_label = new_label(frame)

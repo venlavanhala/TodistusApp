@@ -13,12 +13,6 @@ alkuteksti += "voitaisiin myös ilmaista muodossa:\n\nJos [oletus], niin [väite
 
 oletuskysymys = "Oletus:"
 
-oletusvaihtoehdot = [
-    "a ja b ovat parittomia kokonaislukuja",
-    "a ja b ovat kokonaislukuja",
-    "lukujen a ja b tulo on pariton luku"
-]
-
 oletusvastaus = "a ja b ovat parittomia kokonaislukuja"
 
 oletukset = {"a ja b ovat parittomia kokonaislukuja":"Juuri näin!",
@@ -29,12 +23,6 @@ oletukset = {"a ja b ovat parittomia kokonaislukuja":"Juuri näin!",
 oletusjatko = "Mikä väite on?\n"
 
 vaitekysymys = "Väite:"
-
-vaitevaihtoehdot = [
-    "a \u00B7 b on pariton kokonaisluku",
-    "a \u00B7 b on kokonaisluku",
-    "lukujen a ja b tulo on pariton luku"
-]
 
 vaitteet = {"a \u00B7 b on pariton kokonaisluku":"Oikein!",
     "a \u00B7 b on kokonaisluku":"a\u00B7 b on kokonaisluku, mutta mitä muuta haluamme todistaa?",
@@ -62,7 +50,9 @@ pariton_vihje1 = "Jokaisen parillisen luvun jälkeen tulee pariton luku."
 pariton_vihje2 = "Parilliset luvut voidaan kirjoittaa muodossa a=2k. \nJos lisäämme parilliseen lukuun luvun 1, siitä tulee pariton."
 
 valittu = ""
-# tähän päivittyy arvo
+# tähän päivittyy käyttäjän vastaus pariton-tehtävään
+
+# Jos 2k+1:
 
 paritonjatko = "Nyt meillä on yksi muuttuja, joka ilmaisee paritonta lukua. Tarvitsemme vielä toisen parittoman luvun. Käytämme siihen eri muuttujia, koska parittomat luvut eivät välttämättä ole samoja. "
 
@@ -73,12 +63,6 @@ tulo ="Voimme nyt kirjoittaa tulon lukujen a ja b avulla. Kirjoitamme tulon, jot
 tulosievennys = "a \u00B7 b = (2k + 1)(2n + 1)\n\nLasketaan kertolasku auki:\n\na \u00B7 b = 4kn + 2k + 2n + 1\n"
 
 tulo2 = "Haluamme osoittaa, että lukujen a ja b tulo 4kn + 2k + 2n + 1 on pariton luku. Millä tavalla seuraavista voimme todistaa tämän?"
-
-osoitusvaihtoehdot = [
-"Osoitetaan, että 4kn + 2k + 2n + 1 ei ole jaollinen kahdella",
-"Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p + 1, jossa p \u2208 \u2124",
-"Osoitamme, että 4kn + 2k + 2n + 1 on jaollinen jollain muulla luvulla kuin 2"
-]
 
 osoitusvastaus = ["Osoitetaan, että 4kn + 2k + 2n + 1 ei ole jaollinen kahdella", "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p + 1, jossa p \u2208 \u2124"]
 
@@ -114,12 +98,6 @@ tulo_ ="Voimme nyt kirjoittaa tulon lukujen a ja b avulla. Kirjoitamme tulon, jo
 tulosievennys_ = "a \u00B7 b = (2k - 1)(2n - 1)\n\nLasketaan kertolasku auki:\n\na \u00B7 b = 4kn - 2k - 2n + 1\n"
 
 tulo2_ = "Haluamme osoittaa, että lukujen a ja b tulo 4kn - 2k - 2n + 1 on pariton luku. Millä tavalla seuraavista voimme todistaa tämän?"
-
-osoitusvaihtoehdot_ = [
-"Osoitetaan, että 4kn - 2k - 2n + 1 ei ole jaollinen kahdella",
-"Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p - 1, jossa p \u2208 \u2124",
-"Osoitamme, että 4kn - 2k - 2n + 1 on jaollinen jollain muulla luvulla kuin 2"
-]
 
 osoitusvastaus_ = ["Osoitetaan, että 4kn - 2k - 2n + 1 ei ole jaollinen kahdella", "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p - 1, jossa p \u2208 \u2124"]
 

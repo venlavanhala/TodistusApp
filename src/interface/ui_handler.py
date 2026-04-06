@@ -14,7 +14,7 @@ def init(app_root):
 
 # luo ikkuna
 def create_window(screen):
-    screen.title("TkInter esimerkki")
+    screen.title("Todistustehtävä")
     screen.geometry("800x900") #näytön koko
     screen.configure(bg="white")
     window = scrollable_screen(screen)

@@ -19,7 +19,7 @@ def statement_view(screen):
     frame = new_frame(screen)
 
     # luo monivalintakysymyksen
-    choose_statement = new_combobox(frame, textfields.vaitevaihtoehdot)
+    choose_statement = new_combobox(frame, list(textfields.vaitteet.keys()))
 
     feedback_label = new_label(frame)
 

@@ -105,7 +105,7 @@ def create_formatting_entries(frame, chosen):
 
 
 # tekee uuden monivalintatehtävän
-def new_combobox(frame, text):
+def new_combobox(frame, text:list):
     excercise = ttk.Combobox(
             frame,
             values=text,
