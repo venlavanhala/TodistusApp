@@ -2,10 +2,6 @@ Tässä sovelluksessa voit harjoitella todistamistekniikkaa!
 
 Asennus-ohjeet:
 
-Avaa terminaali komennolla Ctrl + Alt + T.
-
-Liitä seuraavat komennot terminaaliin: 
-
 git clone https://github.com/venlavanhala/Gradu-projekti.git
 
 cd Gradu-projekti
