@@ -1,11 +1,14 @@
 Tässä sovelluksessa voit harjoitella todistamistekniikkaa!
 
-Asennus-ohjeet:
+**Asennus-ohjeet:**
 
-git clone https://github.com/venlavanhala/Gradu-projekti.git
+git clone https://github.com/venlavanhala/TodistusApp.git
 
-cd Gradu-projekti
+cd TodistusApp
 
-bash setup.sh
+poetry install
 
-Tämän jälkeen sinulla pitäisi olla ohjelman kuvake työpöydällä, ja tätä klikkaamalla ohjelma käynnistyy.
+**Sovelluksen käynnistäminen:**
+
+poetry run invoke start
+
