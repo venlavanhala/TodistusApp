@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "graduprojekti"
+name = "TodistusApp"
 version = "0.1.0"
 description = ""
 authors = ["venlavanhala <venla.e.vanhala@gmail.com>"]
