@@ -1,1 +1,12 @@
 __pycache__/
+artikkelit.txt
+dist/
+new_src/
+old_src/
+artikkelit.txt
+index.spec
+logo.png
+muistiinpanot.txt
+setup.sh
+TodistusApp.desktop
+todo.txt
