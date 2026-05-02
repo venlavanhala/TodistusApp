@@ -1,6 +1,6 @@
 Tässä sovelluksessa voit harjoitella todistamistekniikkaa!
 
-Asennus-ohjeet:
+**Asennus-ohjeet:**
 
 git clone https://github.com/venlavanhala/TodistusApp.git
 
@@ -8,7 +8,7 @@ cd TodistusApp
 
 poetry install
 
-Sovelluksen käynnistäminen:
+**Sovelluksen käynnistäminen:**
 
 poetry run invoke start
 
