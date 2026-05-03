@@ -242,3 +242,8 @@ def format_right_answer(label, screen, checkbutton, continue_button):
     checkbutton.pack_forget()
     continue_button.pack()
 
+def formatting_popup(frame):
+    if textfields.valittu == "2k+1":
+        popup_window(frame, textfields.kirjoitusvihje)
+    else:
+        popup_window(frame, textfields.kirjoitusvihje_)

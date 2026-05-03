@@ -26,7 +26,7 @@ def evidence_view(screen):
       osoitusvastaus = textfields.osoitusvastaus
       osoituspalautteet = textfields.osoituspalautteet
     else:
-      choose_proof_method = new_combobox(frame, textfields.osoitusvaihtoehdot_)
+      choose_proof_method = new_combobox(frame, list(textfields.osoituspalautteet_.keys()))
       osoitusvastaus = textfields.osoitusvastaus_
       osoituspalautteet = textfields.osoituspalautteet_
 

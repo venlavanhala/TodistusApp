@@ -66,7 +66,7 @@ tulo2 = "Haluamme osoittaa, että lukujen a ja b tulo 4kn + 2k + 2n + 1 on parit
 
 osoitusvastaus = ["Osoitetaan, että 4kn + 2k + 2n + 1 ei ole jaollinen kahdella", "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p + 1, jossa p \u2208 \u2124"]
 
-osoituspalautteet = {"Osoitamme, että 4kn + 2k + 2n + 1 on jaollinen jollain muulla luvulla kuin 2":"Tämä ei osoita sitä, että 4kn+2k+2n+1 olisi pariton luku.\nJos 4kn+2k+2n+1 olisi jaollinen esimerkiksi luvulla 5,\nse voisi olla samalla myös jaollinen luvulla 2.",
+osoituspalautteet = {"Osoitamme, että 4kn + 2k + 2n + 1 on jaollinen jollain muulla luvulla kuin 2":"Tämä ei osoita sitä, että 4kn+2k+2n+1 olisi pariton luku.\nLuku voi olla samaan aikaan jaollinen\n kahdella luvulla, esim. luvuilla 5 ja 2.",
                     "Osoitetaan, että 4kn + 2k + 2n + 1 ei ole jaollinen kahdella":"Oikein! Tällöin a \u00B7 b voidaan kirjoittaa muodossa 2p+1, jossa p \u2208 \u2124.",
                     "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p + 1, jossa p \u2208 \u2124":"Kyllä! Tällöin a \u00B7 b ei ole jaollinen kahdella."}
 
@@ -101,7 +101,7 @@ tulo2_ = "Haluamme osoittaa, että lukujen a ja b tulo 4kn - 2k - 2n + 1 on pari
 
 osoitusvastaus_ = ["Osoitetaan, että 4kn - 2k - 2n + 1 ei ole jaollinen kahdella", "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p - 1, jossa p \u2208 \u2124"]
 
-osoituspalautteet_ = {"Osoitamme, että 4kn - 2k - 2n + 1 on jaollinen jollain muulla luvulla kuin 2":"Tämä ei osoita sitä, että 4kn-2k-2n+1 olisi pariton luku.\nJos 4kn-2k-2n+1 olisi jaollinen esimerkiksi luvulla 5,\nse voisi olla samalla myös jaollinen luvulla 2.",
+osoituspalautteet_ = {"Osoitamme, että 4kn - 2k - 2n + 1 on jaollinen jollain muulla luvulla kuin 2":"Tämä ei osoita sitä, että 4kn+2k+2n+1 olisi pariton luku.\nLuku voi olla samaan aikaan jaollinen\n kahdella luvulla, esim. luvuilla 5 ja 2.",
                     "Osoitetaan, että 4kn - 2k - 2n + 1 ei ole jaollinen kahdella":"Oikein! Tällöin a \u00B7 b voidaan kirjoittaa muodossa 2p+1, jossa p \u2208 \u2124.",
                     "Osoitetaan, että a \u00B7 b voidaan kirjoittaa muodossa 2p - 1, jossa p \u2208 \u2124":"Kyllä! Tällöin a \u00B7 b ei ole jaollinen kahdella."}
 

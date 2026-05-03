@@ -44,4 +44,9 @@ def formatting_view(screen):
     ))
     check_answer.pack(pady=5)
 
+    tip_pairless = ttk.Button(frame, text="Vihje", command=lambda: (
+      formatting_popup(frame)
+    ))
+    tip_pairless.pack(pady=(5, 5))
+
     return frame

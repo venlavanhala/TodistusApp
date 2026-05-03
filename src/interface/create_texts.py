@@ -6,7 +6,7 @@ def starting_texts(screen):
     #format_textfield(screen, "[Vaihe 1]", "#6a0dad")
     format_textfield(screen, textfields.johdanto)
     format_textfield(screen, textfields.tehtavananto)
-    format_textfield(screen, textfields.alkusuunnitelma)
+    format_textfield(screen, textfields.alkusuunnitelma, "#9c29c1")
     format_textfield(screen, textfields.alkuteksti, "#9c29c1")
     format_textfield(screen, textfields.oletuskysymys)
 
